@@ -24,16 +24,21 @@ Basic Usage
  * **e_est: Estimation Uncertainty**  - Can be initilized with the same value as e_mea since the kalman filter will adjust its value.
  * **q: Process Variance** - usually a small number between 0.001 and 1 - how fast your measurement moves. Recommended 0.01. Should be tunned to your needs.
  
-```c++
+```python
+import RPi.GPIO as GPIO
 
- SimpleKalmanFilter kf = SimpleKalmanFilter(e_mea, e_est, q);
+pin = 17 # as example you got sensor values from GPIO 17
 
- while (1) {
-  float x = analogRead(A0);
-  float estimated_x = kf.updateEstimate(x);
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(pin, GPIO.IN)
+
+kf = SimpleKalmanFilter(e_mea, e_est, q);
+
+while True:
+ x = float(GPIO.input(pin)) # maybe you will calculate a range, a velocity or some other stuff instead of reading a value directly.
+ estimated_x = kf.updateEstimate(x)
   
-  // ...
- } 
+ # ...
 
 ``` 
 
