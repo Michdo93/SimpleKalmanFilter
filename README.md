@@ -2,7 +2,7 @@ Forked from here: https://github.com/denyssene/SimpleKalmanFilter
 
 It's just translated from C++ to Python. Examples have been removed.
 
-Simple Kalman Filter Library - [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://raw.githubusercontent.com/denyssene/SimpleKalmanFilter/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/denyssene/SimpleKalmanFilter.svg?style=plastic)](https://github.com/denyssene/SimpleKalmanFilter/stargazers) [![GitHub issues](https://img.shields.io/github/issues/denyssene/SimpleKalmanFilter.svg?style=plastic)](https://github.com/denyssene/SimpleKalmanFilter/issues)
+Simple Kalman Filter Library Python - [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://raw.githubusercontent.com/denyssene/SimpleKalmanFilter/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/denyssene/SimpleKalmanFilter.svg?style=plastic)](https://github.com/denyssene/SimpleKalmanFilter/stargazers) [![GitHub issues](https://img.shields.io/github/issues/denyssene/SimpleKalmanFilter.svg?style=plastic)](https://github.com/denyssene/SimpleKalmanFilter/issues)
 ========================================
 
  ![KalmanFilter](images/kalman_filter_example_1.png)
