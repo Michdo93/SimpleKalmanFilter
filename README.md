@@ -1,3 +1,7 @@
+Forked from here: https://github.com/denyssene/SimpleKalmanFilter
+
+It's just translated from C++ to Python. Examples have been removed.
+
 Simple Kalman Filter Library - [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://raw.githubusercontent.com/denyssene/SimpleKalmanFilter/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/denyssene/SimpleKalmanFilter.svg?style=plastic)](https://github.com/denyssene/SimpleKalmanFilter/stargazers) [![GitHub issues](https://img.shields.io/github/issues/denyssene/SimpleKalmanFilter.svg?style=plastic)](https://github.com/denyssene/SimpleKalmanFilter/issues)
 ========================================
 
@@ -12,10 +16,7 @@ This is a basic kalman filter library for unidimensional models that you can use
 Repository Contents
 -------------------
 
-* **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE.
-* **/src** - Source files for the library (.cpp, .h).
-* **keywords.txt** - Keywords from this library that will be highlighted in the Arduino IDE. 
-* **library.properties** - General library properties for the Arduino package manager. 
+* **/** - Source files for the library (SimpleKalmanFilter.py).
 
 Basic Usage
 -------------------
@@ -35,18 +36,6 @@ Basic Usage
  } 
 
 ``` 
- 
-Example Briefs
---------------
-
-* **BasicKalmanFilterExample** - A basic example reading a value from a potentiometer in A0 and SimpleKalmanFilter class to generate estimates.
-* **AltitudeKalmanFilterExample** - Uses a BMP180 barometric sensor and the SimpleKalmanFilter class to estimate the correct altitude.
-
-
-Additional Documentation
--------------------------
-
-* **[Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Libraries)** - Basic information on how to install an Arduino library.
 
 
 Version History
